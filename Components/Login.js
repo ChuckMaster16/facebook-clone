@@ -11,7 +11,7 @@ function Login() {
         width={400}
         ObjectFit="contain"
       />
-      <h1 onClick={signIn} className="text-[#1778f2] p-[20px] rounded-2xl"> Login with Facebook</h1>
+      <h1 onClick={signIn} className="text-[#1778f2] bg-sky-300 p-[20px] rounded-2xl"> Login with Facebook</h1>
 
     </div>
   )
