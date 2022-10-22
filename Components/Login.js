@@ -4,14 +4,14 @@ import {signIn} from 'next-auth/react'
 
 function Login() {
   return (
-    <div className="centerall flex items-center w-[100%] h-[100vh justify-self-center]">
+    <div className="flex items-center w-[100%] h-[100vh justify-self-center]">
       <Image
         src="https://res.cloudinary.com/chuckmaster/image/upload/v1665374690/facebook%20clone%20files/Facebook-logo_dcs8pi.png"
         height={250}
         width={400}
         ObjectFit="contain"
       />
-      <h1 onClick={signIn} className="centerallfacebook text-[#1778f2] p-[20px] rounded-2xl"> Login with Facebook</h1>
+      <h1 onClick={signIn} className="text-[#1778f2] p-[20px] rounded-2xl"> Login with Facebook</h1>
 
     </div>
   )
