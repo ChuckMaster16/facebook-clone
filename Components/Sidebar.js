@@ -6,7 +6,7 @@ import {UserIcon, UserGroupIcon,ShoppingBagIcon,DesktopComputerIcon,CalendarIcon
 function Sidebar() {
    const { data: session, loading  } = useSession()
   return (
-    <div className="p-2 mt-5 max-w-[600px ] xl:max-w-[300px] ">
+    <div className="p-2 mt-5 max-w-[600px] xl:max-w-[300px] ">
     <SidebarRow src={session.user.image} title={session.user.name}/>
     <SidebarRow  Icon={UserIcon} title="Friends"/>
     <SidebarRow  Icon={UserGroupIcon} title="Group"/>

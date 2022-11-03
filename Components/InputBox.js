@@ -54,7 +54,7 @@ const removeImage = () => {
   return (
     <div className="bg-white p-2 rounded-2xl shadow-md text-gray-500 font-medium mt-6">
       <div className=" flex space-x-4 p-4 items-center">
-        <Image className="rounded-full justify-center item-center"
+        <Image className="rounded-full justify-center items-center"
                 src={session.user.image}
                 width={40}
                 height={40}
@@ -71,7 +71,7 @@ const removeImage = () => {
           <button  hidden type="submit" onClick={sendPost}>Post</button>
           </form>
           {imageToPost && (
-            <div onClick={removeImage} className="flex flex-col filter hover:brightness-110 transition duration-150 transform hover:scale-105 cursor-pointer">
+            <div onClick={removeImage} className="flex flex-col  hover:brightness-110 transition duration-150 transform hover:scale-105 cursor-pointer">
               <img className="h-10 object-contain" src={imageToPost} alt="selected img"/>
               <p className="text-xs text-red-500 text-center">remove</p>
             </div>

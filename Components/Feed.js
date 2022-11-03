@@ -13,7 +13,6 @@ function Feed({posts}) {
       <Stories/>
       <InputBox/>
       <Posts posts={posts}/>
-
       </div>
     </div>
   );
